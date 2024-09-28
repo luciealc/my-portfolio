@@ -6,17 +6,10 @@ const nextConfig = {
       templateId: process.env.TEMPLATE_ID,
       publicKey: process.env.PUBLIC_KEY
   },
-  distDir: 'build',
+  output: 'export',
+  images: {
+      unoptimized: true
+  }
 };
 
 export default nextConfig;
-
-
-
-
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//     output: 'export',
-// };
-
-// export default nextConfig;
